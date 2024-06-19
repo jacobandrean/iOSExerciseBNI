@@ -1,0 +1,6 @@
+framework module Pods_iOSExerciseBNI_InjectorModule {
+  umbrella header "Pods-iOSExerciseBNI-InjectorModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

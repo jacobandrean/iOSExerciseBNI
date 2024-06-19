@@ -5,6 +5,18 @@
       location = "group:iOSExerciseBNI.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:modules/APIModule/APIModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:modules/InjectorModule/InjectorModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:modules/NetworkModule/NetworkModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:modules/UIModule/UIModule.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

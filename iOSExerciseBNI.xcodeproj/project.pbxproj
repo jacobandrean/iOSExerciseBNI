@@ -17,6 +17,14 @@
 		7226F9DA2C22CC3400226D79 /* iOSExerciseBNITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226F9D92C22CC3400226D79 /* iOSExerciseBNITests.swift */; };
 		7226F9E42C22CC3400226D79 /* iOSExerciseBNIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226F9E32C22CC3400226D79 /* iOSExerciseBNIUITests.swift */; };
 		7226F9E62C22CC3400226D79 /* iOSExerciseBNIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226F9E52C22CC3400226D79 /* iOSExerciseBNIUITestsLaunchTests.swift */; };
+		7226FA482C22D6B500226D79 /* InjectorModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7226FA472C22D6B500226D79 /* InjectorModule.framework */; };
+		7226FA492C22D6B500226D79 /* InjectorModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7226FA472C22D6B500226D79 /* InjectorModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7226FAA92C22DFD800226D79 /* NetworkModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7226FAA82C22DFD800226D79 /* NetworkModule.framework */; };
+		7226FAAA2C22DFD800226D79 /* NetworkModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7226FAA82C22DFD800226D79 /* NetworkModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7226FAAC2C22E02200226D79 /* APIModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7226FAAB2C22E02200226D79 /* APIModule.framework */; };
+		7226FAAD2C22E02200226D79 /* APIModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7226FAAB2C22E02200226D79 /* APIModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7226FAD82C22EE1900226D79 /* UIModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7226FAD72C22EE1900226D79 /* UIModule.framework */; };
+		7226FAD92C22EE1900226D79 /* UIModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7226FAD72C22EE1900226D79 /* UIModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7E84A5B2B99DB9CD438C1DFD /* Pods_iOSExerciseBNI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179D643CD6CD3C5D7C790710 /* Pods_iOSExerciseBNI.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +45,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7226FA4A2C22D6B500226D79 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7226FA492C22D6B500226D79 /* InjectorModule.framework in Embed Frameworks */,
+				7226FAAA2C22DFD800226D79 /* NetworkModule.framework in Embed Frameworks */,
+				7226FAD92C22EE1900226D79 /* UIModule.framework in Embed Frameworks */,
+				7226FAAD2C22E02200226D79 /* APIModule.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		03DF12B6E83DAAC317B1667D /* Pods-iOSExerciseBNI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExerciseBNI.debug.xcconfig"; path = "Target Support Files/Pods-iOSExerciseBNI/Pods-iOSExerciseBNI.debug.xcconfig"; sourceTree = "<group>"; };
 		13D7BE1AC195ADF08E48CFFB /* Pods-iOSExerciseBNI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExerciseBNI.release.xcconfig"; path = "Target Support Files/Pods-iOSExerciseBNI/Pods-iOSExerciseBNI.release.xcconfig"; sourceTree = "<group>"; };
@@ -53,6 +78,10 @@
 		7226F9DF2C22CC3400226D79 /* iOSExerciseBNIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSExerciseBNIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7226F9E32C22CC3400226D79 /* iOSExerciseBNIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExerciseBNIUITests.swift; sourceTree = "<group>"; };
 		7226F9E52C22CC3400226D79 /* iOSExerciseBNIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExerciseBNIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7226FA472C22D6B500226D79 /* InjectorModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = InjectorModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7226FAA82C22DFD800226D79 /* NetworkModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7226FAAB2C22E02200226D79 /* APIModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = APIModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7226FAD72C22EE1900226D79 /* UIModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		791B90CE854B0E356BDF29E7 /* Pods_iOSExerciseBNI_iOSExerciseBNIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSExerciseBNI_iOSExerciseBNIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0F377409AF0BF1D4BCFECA /* Pods-iOSExerciseBNI-iOSExerciseBNIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExerciseBNI-iOSExerciseBNIUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSExerciseBNI-iOSExerciseBNIUITests/Pods-iOSExerciseBNI-iOSExerciseBNIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9FD223CC1122A29239F9B306 /* Pods-iOSExerciseBNITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExerciseBNITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSExerciseBNITests/Pods-iOSExerciseBNITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,7 +95,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7226FA482C22D6B500226D79 /* InjectorModule.framework in Frameworks */,
+				7226FAA92C22DFD800226D79 /* NetworkModule.framework in Frameworks */,
 				7E84A5B2B99DB9CD438C1DFD /* Pods_iOSExerciseBNI.framework in Frameworks */,
+				7226FAAC2C22E02200226D79 /* APIModule.framework in Frameworks */,
+				7226FAD82C22EE1900226D79 /* UIModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +125,10 @@
 		33F1B64E0DCB7B25D2F6DE9D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7226FAD72C22EE1900226D79 /* UIModule.framework */,
+				7226FAAB2C22E02200226D79 /* APIModule.framework */,
+				7226FAA82C22DFD800226D79 /* NetworkModule.framework */,
+				7226FA472C22D6B500226D79 /* InjectorModule.framework */,
 				179D643CD6CD3C5D7C790710 /* Pods_iOSExerciseBNI.framework */,
 				791B90CE854B0E356BDF29E7 /* Pods_iOSExerciseBNI_iOSExerciseBNIUITests.framework */,
 				DF927451188C365C93FFFD67 /* Pods_iOSExerciseBNITests.framework */,
@@ -161,7 +198,6 @@
 				9FD223CC1122A29239F9B306 /* Pods-iOSExerciseBNITests.debug.xcconfig */,
 				BD0E7275F0F173618CCDCBB0 /* Pods-iOSExerciseBNITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -176,6 +212,7 @@
 				7226F9BB2C22CC3000226D79 /* Sources */,
 				7226F9BC2C22CC3000226D79 /* Frameworks */,
 				7226F9BD2C22CC3000226D79 /* Resources */,
+				7226FA4A2C22D6B500226D79 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
