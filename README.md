@@ -1,1 +1,2 @@
-Note: **Please use iOSExerciseBNI.zip**, due to some modules might be missing because of submodule reference gone wrong
+Note: **Please use iOSExerciseBNI.zip**
+due to some modules is missing because of submodule reference gone wrong. I'm sorry, due to time constraint I haven't fixed it yet
