@@ -9,6 +9,9 @@ import InjectorModule
 import UIKit
 import APIModule
 import NetworkModule
+import QRISModule
+import PromoModule
+import PortfolioModule
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -47,6 +50,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             ),
             for: ServiceContext.self
         )
+        injector.register(module: QRISModule.Module())
+        injector.register(module: PromoModule.Module())
+        injector.register(module: PortfolioModule.Module())
     }
 }
 

@@ -14,7 +14,22 @@
       location = "group:modules/NetworkModule/NetworkModule.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:modules/PortfolioModule/PortfolioModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:modules/PromoModule/PromoModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:modules/PushNotificationModule/PushNotificationModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:modules/QRISModule/QRISModule.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:modules/UIModule/UIModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:modules/UtilityModule/UtilityModule.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

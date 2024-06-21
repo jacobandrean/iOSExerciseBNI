@@ -21,7 +21,8 @@ public extension BaseAPI {
         _ method: HTTPMethod,
         path: String,
         headers: [String: String] = [:],
-        parameters: [String: Any] = [:]) -> AnyPublisher<BaseResponse<Response>, Error>
+//        parameters: [String: Any] = [:]) -> AnyPublisher<BaseResponse<Response>, Error>
+        parameters: [String: Any] = [:]) -> AnyPublisher<Response, Error>
     {
         guard var urlComponents = URLComponents(string: baseURLString) else {
             return errorPublisher(.urlError)
@@ -58,7 +59,8 @@ public extension BaseAPI {
                 }
                 return data
             }
-            .decode(type: BaseResponse<Response>.self, decoder: JSONDecoder())
+//            .decode(type: BaseResponse<Response>.self, decoder: JSONDecoder())
+            .decode(type: Response.self, decoder: JSONDecoder())
             .eraseToAnyPublisher()
     }
     

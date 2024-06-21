@@ -12,6 +12,6 @@ public struct Module: InjectorModule.Module {
     public init() {}
     
     public func register(for injector: Injector) {
-        injector.register(BNIAPI(), for: BNIService.self)
+        injector.register(PromoAPI(), for: PromoService.self)
     }
 }

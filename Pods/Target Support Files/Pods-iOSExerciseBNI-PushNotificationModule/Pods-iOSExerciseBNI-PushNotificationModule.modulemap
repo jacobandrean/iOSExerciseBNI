@@ -1,0 +1,6 @@
+framework module Pods_iOSExerciseBNI_PushNotificationModule {
+  umbrella header "Pods-iOSExerciseBNI-PushNotificationModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

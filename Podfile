@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '16.0'
 
 workspace 'iOSExerciseBNI.xcworkspace'
 
@@ -32,6 +32,26 @@ target 'iOSExerciseBNI' do
   
   target 'UIModule' do
     project 'modules/UIModule/UIModule.xcodeproj'
+  end
+  
+  target 'UtilityModule' do
+    project 'modules/UtilityModule/UtilityModule.xcodeproj'
+  end
+  
+  target 'QRISModule' do
+    project 'modules/QRISModule/QRISModule.xcodeproj'
+  end
+  
+  target 'PromoModule' do
+    project 'modules/PromoModule/PromoModule.xcodeproj'
+  end
+  
+  target 'PortfolioModule' do
+    project 'modules/PortfolioModule/PortfolioModule.xcodeproj'
+  end
+  
+  target 'PushNotificationModule' do
+    project 'modules/PushNotificationModule/PushNotificationModule.xcodeproj'
   end
 
 end

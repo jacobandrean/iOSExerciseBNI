@@ -1,0 +1,6 @@
+framework module Pods_iOSExerciseBNI_UtilityModule {
+  umbrella header "Pods-iOSExerciseBNI-UtilityModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

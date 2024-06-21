@@ -12,10 +12,10 @@
 		7226FA8F2C22DCC700226D79 /* APIModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7226FA842C22DCC500226D79 /* APIModule.framework */; };
 		7226FA942C22DCC700226D79 /* APIModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226FA932C22DCC700226D79 /* APIModuleTests.swift */; };
 		7226FA952C22DCC700226D79 /* APIModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 7226FA872C22DCC500226D79 /* APIModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7226FAA02C22DCFD00226D79 /* BNIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226FA9F2C22DCFD00226D79 /* BNIService.swift */; };
 		7226FAA22C22DD2900226D79 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226FAA12C22DD2900226D79 /* Module.swift */; };
 		7226FAA52C22DDCB00226D79 /* NetworkModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7226FAA42C22DDCB00226D79 /* NetworkModule.framework */; };
 		7226FAA62C22DDCB00226D79 /* NetworkModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7226FAA42C22DDCB00226D79 /* NetworkModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7226FBC72C231A8900226D79 /* PromoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226FBC62C231A8900226D79 /* PromoService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		7226FA882C22DCC500226D79 /* APIModule.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = APIModule.docc; sourceTree = "<group>"; };
 		7226FA8E2C22DCC700226D79 /* APIModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7226FA932C22DCC700226D79 /* APIModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModuleTests.swift; sourceTree = "<group>"; };
-		7226FA9F2C22DCFD00226D79 /* BNIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNIService.swift; sourceTree = "<group>"; };
 		7226FAA12C22DD2900226D79 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
 		7226FAA42C22DDCB00226D79 /* NetworkModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7226FBC62C231A8900226D79 /* PromoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoService.swift; sourceTree = "<group>"; };
 		A75B9D26BEF415301797256A /* Pods_iOSExerciseBNI_APIModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSExerciseBNI_APIModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -118,7 +118,7 @@
 		7226FA9E2C22DCE400226D79 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				7226FA9F2C22DCFD00226D79 /* BNIService.swift */,
+				7226FBC62C231A8900226D79 /* PromoService.swift */,
 				7226FAA12C22DD2900226D79 /* Module.swift */,
 			);
 			path = Source;
@@ -280,7 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7226FA892C22DCC500226D79 /* APIModule.docc in Sources */,
-				7226FAA02C22DCFD00226D79 /* BNIService.swift in Sources */,
+				7226FBC72C231A8900226D79 /* PromoService.swift in Sources */,
 				7226FAA22C22DD2900226D79 /* Module.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +445,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,6 +480,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
